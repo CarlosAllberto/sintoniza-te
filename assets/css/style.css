@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor1: #D3A674;
+    --cor2: #E5DDD2;
+    --cor3: #222222;
+}
+
+body {
+    background: var(--cor3);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--cor1);
+}
+
+::-webkit-scrollbar-track {
+    background: var(--cor2);
+}
+
+.btn-gradient {
+    background: linear-gradient(to bottom, #ED8F03, #FFB75E);
+}
+
+#headline {
+    background-image: url("../img/headline-background.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#section2 {
+    background: var(--cor2);
+}
+
+#section3 {
+    background: var(--cor3);
+}
+
+#section4 {
+    background: var(--cor3);
+}
+
+#section5 {
+    background: var(--cor1);
+}
+
+#section6 {
+    background: var(--cor2);
+}
